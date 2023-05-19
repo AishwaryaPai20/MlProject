@@ -1,12 +1,33 @@
-Agenda
+Agenda:
 
-1. Set up the github {Repository}
+1. Set up the GitHub Repository:
+   - Create a new repository on GitHub.
+   - Clone the repository to your local machine using Git.
 
-a new environment 
-  Run in command terminal
-  conda create -p venv python==3.8 -y
-  conda activate venv/
-b setup.py
-c requirements.txt  pip install -r requirements.txt
+2. Set up a new environment:
+   - Open a command terminal.
+   - Create a new virtual environment using Conda: `conda create -n venv python=3.8 -y`.
+   - Activate the virtual environment: `conda activate venv/`.
+  
 
-Create src folder with __init__.py file
+3. Project Structure:
+  - Create a setup.py and requirements.txt folder.
+    `pip install -r requirements.txt`
+   - Create an "src" folder and add an `__init__.py` file to each folder.
+   - Create a "components" folder:
+     - Inside the "components" folder, create the following files:
+       - `data_ingestion.py`
+       - `data_transformation.py`
+       - `model_trainer.py`
+   - Create a "pipeline" folder:
+     - Inside the "pipeline" folder, create the following files:
+       - `predict_pipeline.py`
+       - `train_pipeline.py`
+    -Create a file for exception handling , exception.py, logger.py
+    -Create all the clients, or cloud in utils.py
+
+Regarding the error I encountered:
+
+1 The error message "No .egg-info directory found" suggests that there may be an issue with the package you're trying to install or the metadata specified in the setup.py file. 
+  a. Ensure that the package is available and the setup.py file is correctly defined.
+  b. Go to File -> Save All to save the venv environment that was created

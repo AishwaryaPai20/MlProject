@@ -1,0 +1,12 @@
+Agenda
+
+1. Set up the github {Repository}
+
+a new environment 
+  Run in command terminal
+  conda create -p venv python==3.8 -y
+  conda activate venv/
+b setup.py
+c requirements.txt  pip install -r requirements.txt
+
+Create src folder with __init__.py file

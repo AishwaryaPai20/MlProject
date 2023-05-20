@@ -25,8 +25,10 @@
 - Create a file for exception handling: `exception.py` and `logger.py`.
 - Create client or cloud-related files in `utils.py`.
 
-## Troubleshooting: "No .egg-info directory found" error
+## Troubleshooting Error
+
+### "No .egg-info directory found" error
 - Check the package you are trying to install and ensure it is available.
 - Verify that the `setup.py` file is correctly defined.
-- Save the virtual environment by going to File -> Save All.
+- Save the virtual environment by going to File > Save All.
 

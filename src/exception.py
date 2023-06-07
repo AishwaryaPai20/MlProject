@@ -16,11 +16,12 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__ == "__main__":
-    configure_logging()
+# Adding Exception to logs
+# if __name__ == "__main__":
+#     configure_logging()
 
-    try:
-        a = 1 / 0
-    except Exception as e:
-        logging.info("Divide by zero error occurred")
-        raise CustomException(e, sys)
+#     try:
+#         a = 1 / 0
+#     except Exception as e:
+#         logging.info("Divide by zero error occurred")
+#         raise CustomException(e, sys)

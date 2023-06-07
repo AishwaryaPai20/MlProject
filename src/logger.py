@@ -15,8 +15,9 @@ def configure_logging():
         level=logging.INFO
     )
 
-if __name__ == "__main__":
-    configure_logging()
+# Adding Logs
+# if __name__ == "__main__":
+#     configure_logging()
 
-    print("This is a logger module")
-    logging.info("This is a logger module")
+#     print("This is a logger module")
+#     logging.info("This is a logger module")

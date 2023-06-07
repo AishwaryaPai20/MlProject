@@ -26,6 +26,13 @@ Agenda:
     -Create a file for exception handling , exception.py, logger.py
     -Create all the clients, or cloud in utils.py
 
+4. EDA nad model training
+Add data and ipynb file in notebook folder
+a. run the cells to perform EDA on data
+do pip install ipykernel to get jupyter notebook in vs code
+b. 
+
+
 Regarding the error I encountered:
 
 1 The error message "No .egg-info directory found" suggests that there may be an issue with the package you're trying to install or the metadata specified in the setup.py file. 

@@ -30,7 +30,8 @@ Agenda:
 Add data and ipynb file in notebook folder
 a. run the cells to perform EDA on data
 do pip install ipykernel to get jupyter notebook in vs code
-b. 
+
+5. Data Ingestion Code needs to be created where the train and test data split happens and saved in different files
 
 
 Regarding the error I encountered:
@@ -38,3 +39,4 @@ Regarding the error I encountered:
 1 The error message "No .egg-info directory found" suggests that there may be an issue with the package you're trying to install or the metadata specified in the setup.py file. 
   a. Ensure that the package is available and the setup.py file is correctly defined.
   b. Go to File -> Save All to save the venv environment that was created
+
